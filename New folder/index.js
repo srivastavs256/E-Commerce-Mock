@@ -17,7 +17,7 @@ function addProductToList(product) {
     li.textContent = `${product.name} - $${product.price}`;
     
     const deleteBtn = document.createElement('button');
-    deleteBtn.textContent = 'Delete Product';
+    deleteBtn.textContent = 'Delete Product';  
     deleteBtn.className = 'delete-btn';
     deleteBtn.onclick = () => deleteProduct(product.id, li);
 
