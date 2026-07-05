@@ -3,19 +3,22 @@ body {
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
+
+    background-color: gray;
 }
 
 .container {
     max-width: 600px;
     margin: auto;
-    background: white;
+    background: pink;
+
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2, h3 {
-    color: #333;
+    color: #8e0404;
 }
 
 form {
@@ -49,7 +52,7 @@ li {
     margin: 10px 0;
     padding: 10px;
     background: #f9f9f9;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .delete-btn {
@@ -58,4 +61,15 @@ li {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.login-btn{
+    padding: 1px 9px;
+    background-color: #007bff;
+    color: white;
+    border: black;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin: 500px;
+   
 }
